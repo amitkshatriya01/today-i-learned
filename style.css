@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #292524;
+  color: #fafaf9;
+  font-family: "Sono", sans-serif;
+  padding: 40px;
+}
+
+.header {
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-size: 42px;
+  text-transform: uppercase;
+  font-family: "Coiny", cursive;
+  color: #fafaf9;
+}
+
+.fact {
+  font-size: 20px;
+  line-height: 1.4;
+  color: #fafaf9;
+  background-color: #404040;
+  margin-bottom: 16px;
+  padding: 16px 24px;
+}
+
+.fact-form {
+  background-color: #404040;
+  margin-bottom: 40px;
+  padding: 16px 40px;
+}
+
+.tag {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: "Coiny", cursive;
+  color: #fafaf9;
+}
+
+ul {
+  list-style: none;
+}
