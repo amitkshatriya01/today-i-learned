@@ -8,7 +8,7 @@ body {
   background-color: #292524;
   color: #fafaf9;
   font-family: "Sono", sans-serif;
-  padding: 48px 64px;
+  padding: 48px 64px 0px;
 }
 
 .container {
@@ -80,6 +80,7 @@ h1 {
   display: grid;
   grid-template-columns: 250px 1fr;
   gap: 48px;
+  height: calc(100vh - 48px - 68px - 40px);
 }
 
 @media (max-width: 900px) {
@@ -180,6 +181,11 @@ ul {
   transition: 0.3s;
 }
 
+.vote-buttons button:disabled {
+  background-color: #44403c;
+  transition: 0.3s;
+}
+
 .fact-form input,
 .fact-form select {
   width: 220px;
@@ -208,7 +214,7 @@ ul {
 
 @media (max-width: 1000px) {
   body {
-    padding: 32px 48px;
+    /* padding: 32px 48px ; */
   }
 
   .fact-form {
@@ -232,4 +238,20 @@ ul {
   font-size: 32px;
   font-weight: 600;
   margin-top: 24px;
+}
+
+.disputed {
+  color: #ef4444;
+  font-weight: 600;
+  margin: 10px;
+}
+
+#root {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+section {
+  overflow: scroll;
+  padding-bottom: 40px;
 }
